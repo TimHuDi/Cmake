@@ -1,0 +1,3 @@
+CMake switching the build type?
+Ans:CMAKE_BUILD_TYPE variable gonvern the configuration.1)Debug is use -g flag to generate debug symbol.2) Release use -O3 flag to optimize.
+3)RelWithDebInfo essentially use -O2 -g.4)MinSizeRel essentially use -Os. Which could be display by message CMAKE_CXX_FLAGS_DEBUG and so on.
